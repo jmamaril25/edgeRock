@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" id="contact">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<title>EdgeRock | Contact</title>
+		<link rel="icon" type="image/png" href="res/images/favicon-32x32.png" sizes="32x32"/>
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="res/css/style.css">
+	</head>
+	<body>
+		<!-- NAVBAR -->
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="index.html"><img id="nav-logo" src="res/images/nav_logo.svg"></a>
+				</div>
+				<div class="collapse navbar-collapse" id="navbar-collapse-1">
+					<center>
+						<ul class="nav navbar-nav navbar">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="about.html">About Us</a></li>
+							<li><a href="portfolio.html">Portfolio</a></li>
+							<li><a href="developments.html">Current Developments</a></li>
+							<li class="active"><a href="#">Contact Us</a></li>
+							<li><a href="broker.html">Commercial Broker Information</a></li>
+							<li><a href="intern.html">Internships</a></li>
+						</ul>
+					</center>
+				</div>
+			</div>
+		</nav>
+		<!-- MAIN BODY -->
+		<div class="container">
+			<div class="well well-lg">
+				<div class="row" id="contact-info">
+					<div class="col-md-6">
+						<h2>Work with EdgeRock Development.</h2>
+						<p><strong>A: </strong>733 SR 32, Westfield, IN 46074<br>
+						<strong>P: </strong>(317) 979-0538<br>
+						<strong>E: </strong>bdalton@mag-us.com</p>
+						<img id="contact-image" src="res/developments/hoffas/3.jpg">
+					</div>
+					<div class="col-md-6">
+						<br>
+						<fieldset>
+							<legend>Contact Us</legend>
+							<form role="form" method="post" action="res/php/contact.php" enctype="text/plain">
+								<div class="form-group">
+									<label for="name">Name:</label>
+									<input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" required="required" value="">
+								</div>
+								<div class="form-group">
+									<label for="email">Email:</label>
+									<input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" required="required" value="">
+								</div>
+								<div class="form-group">
+									<label for="subject">Subject:</label>
+									<input type="text" class="form-control" id="subject" name="subject" placeholder="Developing Westfield" required="required" value="">
+								</div>
+								<div class="form-group">
+									<label for="comment">Comments:</label>
+									<textarea class="form-control" rows="6" id="comment" placeholder="Type comments here" required="required"></textarea>
+								</div>
+								<div class="form-group">
+									<input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
+								</div>
+								<div class="form-group">
+									<?php echo $result; ?>
+								</div>
+							</form>
+						</fieldset>
+					</div>
+				</div>
+				<hr>
+				<div class="row">
+					<iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3054.489337455202!2d-86.14683558446347!3d40.042179479410414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8814afb38fc7a923%3A0x87b1965758e2c6ae!2s733+IN-32%2C+Westfield%2C+IN+46074!5e0!3m2!1sen!2sus!4v1477060713817" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+</html>

@@ -1,0 +1,214 @@
+/* GLOBAL */
+body {
+	min-height: 100%;
+	background: none;
+	max-width: 100%;
+	overflow-x: hidden;
+}
+.navbar-toggle {
+	margin-right: 30px;
+}
+.btn-primary {
+	background-color: #3d7db7;
+}
+#footer-text {
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+/* INDEX */
+#index {
+	background:url('../images/bg.png') no-repeat center center;
+	max-height:100%;
+	background-size:cover;
+	max-width: 100%;
+	overflow-x: hidden;
+}
+.container-fluid {
+	padding: 0;
+}
+.navbar {
+	border-radius: 0px;
+}
+#nav-logo {
+	height: 100%;
+	margin-left: 10px;
+}
+.jumbotron-index {
+	background: none;
+	text-align: center;
+	margin-bottom: 100px;
+	margin-top: 70px;
+}
+#jumbotron-logo {
+	margin-top: 70px;
+	margin-left: 15%;
+	margin-right: 20%;
+	padding: 0px 16px 20px;
+}
+#feature-listings {
+	background-color: #fff;
+	padding: 16px 50px 32px;
+}
+footer .well {
+	margin: 0px;
+	border-radius: 0px;
+}
+
+/* ABOUT */
+#about-img {
+	max-width: 80%;
+}
+#about-title {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+#about-logo {
+	margin: 10px;
+}
+
+/* PORTFOLIO */
+.jumbotron-portfolio {
+	background:url('../images/bg2.png') no-repeat center center;
+	background-size:cover;
+	max-width: 100%;
+	overflow-x: hidden;
+}
+
+/* DEVELOPMENTS */
+.jumbotron-development {
+	background:url('../images/bg1.png') no-repeat center center;
+	background-size:cover;
+	max-width: 100%;
+	overflow-x: hidden;
+}
+
+/* CONTACT */
+#contact-image {
+	max-width: 100%;
+	border-radius: 6px;
+}
+#contact-info {
+	margin-bottom: 24px;
+}
+#map {
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+/* DEVELOPMENT DETAIL */
+.jumbotron-detail {
+
+	background-size:cover;
+	max-width: 100%;
+	height: 350px;
+	overflow-x: hidden;
+}
+.detail-contact {
+	padding: 20px 0 35px;
+}
+.extra-detail {
+	margin: 5px 0;
+}
+#detail .panel-body .col-xs-4 {
+	padding: 0 5px;
+}
+#assurance-jumbotron {
+	
+}
+#duramark-jumbotron {
+	background:url('../developments/duramark_westfield/bg.png') no-repeat center center;
+	background-size: 1200px;
+}
+#gateway-jumbotron {
+	background:url('../developments/gateway_southwest/bg.png') no-repeat center center;
+	background-size: 1200px;
+}
+#millennium-jumbotron {
+	background:url('../developments/grand_millennium/bg.png') no-repeat center center;
+	background-size: 1200px;
+}
+#hoffas-jumbotron {
+	background:url('../developments/hoffas/bg.png') no-repeat center center;
+	background-size: 1150px;
+}
+#junction-jumbotron {
+	background:url('../developments/junction/bg.png') no-repeat center center;
+	background-size: 1200px;
+}
+#trails-jumbotron {
+	background:url('../developments/trails/bg.png') no-repeat center center;
+	background-size: 1150px;
+}
+#entertainment-jumbotron {
+	background:url('../developments/westfield_entertainment/bg.png') no-repeat center center;
+}
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (max-width: 1000px) {
+	.navbar-header {
+		float: none;
+	}
+	.navbar-left,.navbar-right {
+		float: none !important;
+	}
+	.navbar-toggle {
+		display: block;
+	}
+	.navbar-collapse {
+		border-top: 1px solid transparent;
+		box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+	}
+	.navbar-fixed-top {
+		top: 0;
+		border-width: 0 0 1px;
+	}
+	.navbar-collapse.collapse {
+		display: none!important;
+	}
+	.navbar-nav {
+		float: none!important;
+		margin-top: 7.5px;
+	}
+	.navbar-nav>li {
+		float: none;
+	}
+	.navbar-nav>li>a {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.collapse.in{
+		display:block !important;
+	}
+	.navbar-nav .open .dropdown-menu {
+		position: static;
+		float: none;
+		width: auto;
+		margin-top: 0;
+		background-color: transparent;
+		border: 0;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+	}
+}
+
+
+
+
+
+
+
+
